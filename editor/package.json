@@ -1,0 +1,68 @@
+{
+  "name": "apiary",
+  "version": "1.0.0",
+  "description": "Content editor for Seedlingo",
+  "homepage": "https://seedlingo.com",
+  "bugs": "https://github.com/nodepa/seedlingo/issues",
+  "repository": "https://github.com/nodepa/seedlingo",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "seedlingo",
+    "literacy",
+    "digital-learning",
+    "education",
+    "edtech",
+    "reading",
+    "vuejs",
+    "typescript",
+    "editor"
+  ],
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "login": "aws sso login",
+    "postinstall": "nuxi prepare",
+    "preview": "nuxi preview",
+    "sandbox": "ampx sandbox"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-vue": "^4.2.26",
+    "@nuxt/image": "^1.9.0",
+    "@nuxt/ui": "^3.0.0-alpha.11",
+    "aws-amplify": "^6.12.0",
+    "nuxt": "^3.15.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.13.0",
+    "@aws-amplify/backend-cli": "^1.4.6",
+    "@iconify-json/mdi": "^1.2.2",
+    "@typescript-eslint/eslint-plugin": "^8.19.1",
+    "@typescript-eslint/parser": "^8.19.1",
+    "aws-cdk": "^2.175.1",
+    "aws-cdk-lib": "^2.175.1",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.2",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.32.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "overrides": {
+    "@aws-amplify/ui-vue": {
+      "@vueuse/core": "^12.4.0"
+    }
+  },
+  "volta": {
+    "node": "20.18.1",
+    "npm": "10.9.2"
+  }
+}

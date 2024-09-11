@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  /* --color-lochmara-50: #effaff;
+  --color-lochmara-100: #daf3ff;
+  --color-lochmara-200: #beebff;
+  --color-lochmara-300: #91dfff;
+  --color-lochmara-400: #5ecbfc;
+  --color-lochmara-500: #38aff9;
+  --color-lochmara-600: #2293ee;
+  --color-lochmara-700: #1976d2;
+  --color-lochmara-800: #1c63b1;
+  --color-lochmara-900: #1c548c;
+  --color-lochmara-950: #163355; */
+  /* --color-lochmara-50: hsl(199, 100%, 97%);
+  --color-lochmara-100: hsl(199, 100%, 93%);
+  --color-lochmara-200: hsl(198, 100%, 87%);
+  --color-lochmara-300: hsl(197, 100%, 78%);
+  --color-lochmara-400: hsl(199, 96%, 68%);
+  --color-lochmara-500: hsl(203, 94%, 60%);
+  --color-lochmara-600: hsl(207, 86%, 53%);
+  --color-lochmara-700: hsl(210, 79%, 46%);
+  --color-lochmara-800: hsl(211, 73%, 40%);
+  --color-lochmara-900: hsl(210, 67%, 33%);
+  --color-lochmara-950: hsl(212, 59%, 21%); */
+
+  --color-lochmara-50: hsl(210, 80%, 90%);
+  --color-lochmara-100: hsl(210, 80%, 84%);
+  --color-lochmara-200: hsl(210, 80%, 78%);
+  --color-lochmara-300: hsl(210, 80%, 72%);
+  --color-lochmara-400: hsl(210, 80%, 66%);
+  --color-lochmara-500: hsl(210, 80%, 60%);
+  --color-lochmara-600: hsl(210, 80%, 54%);
+  --color-lochmara-700: hsl(210, 80%, 48%);
+  --color-lochmara-800: hsl(210, 80%, 42%);
+  --color-lochmara-900: hsl(210, 80%, 36%);
+  --color-lochmara-950: hsl(210, 80%, 30%);
+
+  --color-primary-50: var(--ui-color-primary-50);
+  --color-primary-100: var(--ui-color-primary-100);
+  --color-primary-200: var(--ui-color-primary-200);
+  --color-primary-300: var(--ui-color-primary-300);
+  --color-primary-400: var(--ui-color-primary-400);
+  --color-primary-500: var(--ui-color-primary-500);
+  --color-primary-600: var(--ui-color-primary-600);
+  --color-primary-700: var(--ui-color-primary-700);
+  --color-primary-800: var(--ui-color-primary-800);
+  --color-primary-900: var(--ui-color-primary-900);
+  --color-primary-950: var(--ui-color-primary-950);
+  --color-secondary-50: var(--ui-color-secondary-50);
+  --color-secondary-100: var(--ui-color-secondary-100);
+  --color-secondary-200: var(--ui-color-secondary-200);
+  --color-secondary-300: var(--ui-color-secondary-300);
+  --color-secondary-400: var(--ui-color-secondary-400);
+  --color-secondary-500: var(--ui-color-secondary-500);
+  --color-secondary-600: var(--ui-color-secondary-600);
+  --color-secondary-700: var(--ui-color-secondary-700);
+  --color-secondary-800: var(--ui-color-secondary-800);
+  --color-secondary-900: var(--ui-color-secondary-900);
+  --color-secondary-950: var(--ui-color-secondary-950);
+}
+
+:root.dark {
+  --amplify-colors-black: #fff;
+  --amplify-colors-white: #111;
+  --amplify-colors-neutral-40: var(--ui-color-gray-400);
+  --amplify-colors-neutral-90: var(--ui-color-gray-300);
+  --amplify-colors-neutral-100: var(--ui-color-gray-100);
+  --amplify-colors-primary-10: var(--ui-color-primary-950);
+  --amplify-colors-primary-20: var(--ui-color-primary-900);
+  --amplify-colors-primary-30: var(--ui-color-primary-800);
+  --amplify-colors-primary-40: var(--ui-color-primary-700);
+  --amplify-colors-primary-50: var(--ui-color-primary-600);
+  --amplify-colors-primary-60: var(--ui-color-primary-500);
+  --amplify-colors-primary-70: var(--ui-color-primary-400);
+  --amplify-colors-primary-80: var(--ui-color-primary-300);
+  --amplify-colors-primary-90: var(--ui-color-primary-200);
+  --amplify-colors-primary-100: var(--ui-color-primary-100);
+
+  --ui-primary: var(--ui-color-primary-400);
+}
+
+:root {
+  --amplify-colors-primary-10: var(--ui-color-primary-100);
+  --amplify-colors-primary-20: var(--ui-color-primary-200);
+  --amplify-colors-primary-30: var(--ui-color-primary-300);
+  --amplify-colors-primary-40: var(--ui-color-primary-400);
+  --amplify-colors-primary-50: var(--ui-color-primary-500);
+  --amplify-colors-primary-60: var(--ui-color-primary-600);
+  --amplify-colors-primary-70: var(--ui-color-primary-700);
+  --amplify-colors-primary-80: var(--ui-color-primary-800);
+  --amplify-colors-primary-90: var(--ui-color-primary-900);
+  --amplify-colors-primary-100: var(--ui-color-primary-950);
+
+  --ui-primary: var(--ui-color-primary-600);
+}
